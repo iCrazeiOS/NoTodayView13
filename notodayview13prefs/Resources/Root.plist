@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>NoTodayView13</string>
+			<key>footerText</key>
+			<string>The "Enable on lockscreen" option will also disable the Today view in the notification centre.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.icraze.notodayview13prefs</string>
+			<key>key</key>
+			<string>kEnableOnHomescreen</string>
+			<key>label</key>
+			<string>Enable on homescreen</string>
+			<key>PostNotification</key>
+			<string>com.icraze.notodayview13prefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.icraze.notodayview13prefs</string>
+			<key>key</key>
+			<string>kEnableOnLockscreen</string>
+			<key>label</key>
+			<string>Enable on lockscreen</string>
+			<key>PostNotification</key>
+			<string>com.icraze.notodayview13prefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Links</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>paypal:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>PayPal</string>
+		</dict>
+		<dict>
+			<key>big</key>
+			<true/>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>height</key>
+			<integer>50</integer>
+			<key>label</key>
+			<string>Twitter</string>
+			<key>user</key>
+			<string>iCrazeiOS</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>github:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>GitHub (Source Code)</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>NoTodayView13</string>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+Package: com.icraze.notodayview13
+Name: NoTodayView13
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Remove the today view
+Maintainer: iCraze
+Author: iCraze
+Section: Tweaks
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
