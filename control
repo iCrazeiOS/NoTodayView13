@@ -2,7 +2,7 @@ Package: com.icraze.notodayview13
 Name: NoTodayView13
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Remove the today view
+Description: Remove the today view on the homescreen/lockscreen.
 Maintainer: iCraze
 Author: iCraze
 Section: Tweaks
